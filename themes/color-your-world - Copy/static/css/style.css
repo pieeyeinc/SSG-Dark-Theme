@@ -1,0 +1,64 @@
+.formcontainer {    
+    margin: 0 auto;
+}
+.padding-tb-20 {
+    padding: 20px 0;
+}
+#logo{
+    height: 60px;
+    width: 200px;
+    margin: 0px;
+}
+#form{
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+}
+body > div > footer {
+    text-align: center;
+    margin-top: 50px;
+}
+main {
+    margin: auto;
+    max-width: 1140px !important;
+}
+.btn{
+    background: var(--accent);
+    border: 1px solid rgba(0,0,0,.3);
+    border-radius: 2px;
+    color: var(--dtl);
+    text-decoration: none;
+    transition: background-color .3s ease,color .3s ease,opacity .2s ease-in-out,outline-color .3s ease;
+    box-shadow: inset 0 1px 0 rgb(255 255 255 / 20%), inset 0 -3px 0 rgb(0 0 0 / 30%);
+    text-shadow: 0 1px 0 var(--lpress),1px 0 0 var(--lpress);
+}
+.odd{
+    background-color: 'transparent';
+}
+article, article h3{
+    margin: 0;
+}
+:root {
+    --color-background-primary: #000000;
+    --color-text-primary: #ffffff;
+    --font-body: 'ui-sans-serif';
+}
+body {
+    background-color: var(--color-background-primary);
+    font-family: var(--font-body);
+    color: var(--color-text-primary);
+  }
+  #nav-border {
+    background-color: var(--color-background-primary);
+ }
+  #navText {
+    color: var(--color-text-primary);
+  }
+  #footerText{
+    color: var(--color-text-primary);
+  }
+  body>header, body>footer{
+    background: var(--color-background-primary);
+    font-family: var(--font-body);
+    color: var(--color-text-primary);
+}
