@@ -5,8 +5,6 @@
     padding: 20px 0;
 }
 #logo{
-    height: 60px;
-    width: 200px;
     margin: 0px;
 }
 #form{
@@ -23,10 +21,10 @@ main {
     max-width: 1140px !important;
 }
 .btn{
-    background: var(--accent);
+    background-color: var(--color-text-primary);
+    color: var(--color-background-primary);
     border: 1px solid rgba(0,0,0,.3);
     border-radius: 2px;
-    color: var(--dtl);
     text-decoration: none;
     transition: background-color .3s ease,color .3s ease,opacity .2s ease-in-out,outline-color .3s ease;
     box-shadow: inset 0 1px 0 rgb(255 255 255 / 20%), inset 0 -3px 0 rgb(0 0 0 / 30%);
@@ -61,4 +59,23 @@ body {
     background: var(--color-background-primary);
     font-family: var(--font-body);
     color: var(--color-text-primary);
+}
+.card-header {
+    border-bottom: 1px solid var(--color-text-primary);
+}
+
+.header{
+    color: var(--color-text-primary);
+}
+.ql-align-center {
+    text-align: center;
+}
+.ql-align-right {
+    text-align: right;
+}
+.ql-align-left {
+    text-align: left;
+}
+.divlogo{
+    float: left;
 }

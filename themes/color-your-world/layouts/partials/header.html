@@ -1,9 +1,9 @@
 <!-- Custom or default site title -->
-<img id="logo" src= "https://app.dev.pii.ai/img/brand/pieeye_logo-2-dark.png"/>
+<div class='divlogo'><img id="logo"/></div>
 {{ if (templates.Exists "partials/custom/site-title.html") }}
   {{ partial "custom/site-title" . }}
 {{ else }}
-  <a href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Title }}</a>
+  <div class ="header">{{ .Site.Title }}</div>
 {{ end }}
 <!-- Menu -->
 {{ if .Site.Menus.main }}

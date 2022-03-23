@@ -1,4 +1,4 @@
-baseURL = 'https://app.pii.ai/'
+baseURL = 'https://dsrp.dev.pii.ai/themes/dark/'
 languageCode = "en"
 title = "PieEye"
 theme = "color-your-world"
@@ -329,7 +329,3 @@ i18n_data = '{	"sp": {		"Requestor": "Solicitante",		"Guest Customer" : "Cliente
 dsr_req_id = '51a9c2e4-7818-46a7-9001-b77c2227f7e2'
 
 status_details_data = '{ "requestId": "9104c4bb-ea8b-41ac-a3b5-445f8e16796e", "companyName": "flipkart", "firstName": "shantanu", "lastName": "kadam", "email": "shantanu.kadam@extrapreneursindia.com", "requestType": "access", "requestor": "customer", "received": "2022-02-09T09:07:49Z", "dataSource": { "totalDataSources": 1, "totalDatasources": 1, "totalMatches": 1, "matchedRecords": [ { "email": "shantanu.kadam@extrapreneursindia.com", "phone": "", "lastname": "kadam", "firstname": "shantanu", "Datasource Name": "acuity", "Table Name": "Appointments" } ] } }'
-
-config_data = '{ "color": { "backgroundcolor": "#000000", "headerBackground": "#ffffff", "footerBackground": "#ffffff", "fontcolor": "#000000", "navText": "#000000", "footerText": "#000000", "navBtnBg":"#000000", "navBtnTxt":"#ffffff" }, "font": { "bodyFontFamily": "poppins,Arial,sans-serif" }, "contents": { "hideFooter": false,"hideHeader": false, "footerText": "Powered by PieEye Inc.", "hideMenu": false, "logoUrl": "https://app.dev.pii.ai/img/brand/pieeye_logo-2-dark.png" } }'
-
-footerText = [ "Powered by PieEye Inc." ]

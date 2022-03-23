@@ -329,5 +329,3 @@ i18n_data = '{	"sp": {		"Requestor": "Solicitante",		"Guest Customer" : "Cliente
 dsr_req_id = '51a9c2e4-7818-46a7-9001-b77c2227f7e2'
 
 status_details_data = '{ "requestId": "9104c4bb-ea8b-41ac-a3b5-445f8e16796e", "companyName": "flipkart", "firstName": "shantanu", "lastName": "kadam", "email": "shantanu.kadam@extrapreneursindia.com", "requestType": "access", "requestor": "customer", "received": "2022-02-09T09:07:49Z", "dataSource": { "totalDataSources": 1, "totalDatasources": 1, "totalMatches": 1, "matchedRecords": [ { "email": "shantanu.kadam@extrapreneursindia.com", "phone": "", "lastname": "kadam", "firstname": "shantanu", "Datasource Name": "acuity", "Table Name": "Appointments" } ] } }'
-
-footerText = [ "Powered by PieEye Inc." ]
